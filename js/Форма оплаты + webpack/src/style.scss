@@ -1,0 +1,85 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.incorrectly {
+  outline: 4px solid red;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 30px 50px;
+  max-width: 900px;
+}
+
+.h1 {
+  margin: 0 0 30px;
+  font-size: 24px;
+}
+
+#form {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 25px;
+  border-radius: 6px;
+  background-color: antiquewhite;
+}
+
+input {
+  border-radius: 6px;
+  height: 24px;
+  font-size: 16px;
+}
+
+#input_card_code {
+  width: 30px;
+  text-align: center;
+}
+
+#input_card_date {
+  width: 50px;
+  text-align: center;
+}
+
+#input_card_number {
+  width: 170px;
+  text-align: center;
+}
+
+#card_type {
+  display: none;
+  min-width: 60px;
+  margin: 0;
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mir {
+  background: url('./assets/img/mir_bg.jpeg');
+}
+
+.visa {
+  background: url('./assets/img/visa_bg.jpeg');
+}
+
+#button {
+  margin: 0;
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+#button:not(:disabled) {
+  background-color: white;
+}
